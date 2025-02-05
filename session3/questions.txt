@@ -1,0 +1,32 @@
+Question:
+
+Create a class hierarchy for a Library System. Implement a base class Item with properties like title, author, and publicationYear. Derive two classes, Book and Magazine, from the Item class. Each derived class should have additional properties such as genre for books and issueNumber for magazines. Write methods in each class to display their details. Demonstrate the use of inheritance by creating objects of both classes and calling their respective methods.
+ 
+Abstraction:
+
+Question:
+
+Design an Employee Management System where you create an abstract class Employee with abstract methods like calculateSalary() and displayDetails(). Create two derived classes, FullTimeEmployee and PartTimeEmployee, and implement the abstract methods. For FullTimeEmployee, calculate salary as a fixed monthly rate, and for PartTimeEmployee, calculate salary based on hourly rates. Demonstrate polymorphism by creating an array of Employee objects and calculating/displaying salaries using overridden methods.
+ 
+3. Polymorphism:
+
+Question:
+
+Implement a class hierarchy for Vehicles with a base class Vehicle that contains a method startEngine(). Derive two classes: Car and Motorcycle, both overriding the startEngine() method to print different messages indicating how their engines are started. Create a method vehicleTestDrive(Vehicle vehicle) that accepts any object of type Vehicle and calls its startEngine() method. Demonstrate polymorphism by passing different vehicle objects to this method.
+
+
+
+
+
+
+Inheritance and Polymorphism:
+
+Question:
+
+Create a class structure for a Shape Drawing Application. Start with an abstract class Shape with a method draw(). Derive two classes: Circle and Rectangle. Implement the draw() method in both derived classes to display specific messages such as “Drawing a Circle” and “Drawing a Rectangle”. In the main program, create an array of Shape objects (including both circles and rectangles) and call the draw() method on each. Demonstrate polymorphism through this array.
+ 
+Question:
+
+Design an Online Payment System with an abstract class PaymentMethod containing an abstract method processPayment(). Create two derived classes: CreditCard and PayPal, each implementing the processPayment() method differently (for example, one might charge a fee, and the other might not). Create a method processTransaction(PaymentMethod paymentMethod) that accepts a PaymentMethod object and processes the payment by calling processPayment(). Demonstrate polymorphism by using both CreditCard and PayPal objects in the transaction processing system.
+ 
+ 
